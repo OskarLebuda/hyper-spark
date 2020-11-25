@@ -1,4 +1,4 @@
-import { getCWD } from '../utils/utils';
+import { getCWD } from '../Utils/utils';
 
 export default store => next => action => {
   const uids = store.getState().sessions.sessions;
